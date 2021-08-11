@@ -8,3 +8,7 @@
 @import url(./assets/components/_activity-grid.css);
 @import url(./assets/layout/_main-article.css);
 @import url(./assets/components/_search.css);
+
+body {
+  background-color: aqua;
+}
