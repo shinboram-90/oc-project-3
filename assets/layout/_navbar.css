@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-items > ul {
+  display: grid;
+  grid-template-columns: 1fr repeat(3, fit-content(100px));
+  grid-gap: 20px;
+}
+
+.nav-subscription {
+  color: var(--clr-accent);
+}
+
+.navbar-items > .active-link {
+  border-top: solid 3px var(--clr-accent);
+}
+
+.nav-link[data-active="true"] {
+  color: var(--clr-accent);
+}

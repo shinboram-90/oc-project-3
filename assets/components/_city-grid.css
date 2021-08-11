@@ -1,0 +1,40 @@
+.city-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.city-card-1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.city-card-2 {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.city-card-3 {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.city-card-4 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.city-card-5 {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.city-card-6 {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}

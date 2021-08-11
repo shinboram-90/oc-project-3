@@ -1,0 +1,33 @@
+.search-bar {
+  display: inline-flex;
+  max-width: 100%;
+  overflow: auto;
+}
+
+.search-bar > span {
+  background-color: var(--clr-grey);
+  padding: 1rem 1.25rem;
+  border-radius: 1rem 0 0 1rem;
+  text-align: center;
+}
+
+.search-bar button {
+  background-color: var(--clr-accent);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 0 1rem 1rem 0;
+  padding: 0 1.5rem;
+  font-family: "Raleway", "Sans serif";
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.search-bar input {
+  border-radius: 0;
+  border-color: var(--clr-grey);
+}
+
+/* .fa-search {
+  color: transparent;
+} */
