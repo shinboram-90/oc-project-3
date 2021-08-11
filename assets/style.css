@@ -1,15 +1,15 @@
-@import url(../assets/base/fonts.css);
-@import url(../assets/base/color.css);
-@import url(../assets/components/_buttons.css);
-@import url(../assets/components/_filters.css);
-@import url(../assets/layout/_navbar.css);
-@import url(../assets/layout/_footer.css);
-@import url(../assets/components/_city-grid.css);
-@import url(../assets/components/_activity-grid.css);
-@import url(../assets/layout/_main-article.css);
-@import url(./../assets/components/_search.css);
-@import url(./../assets/base/fonts.css);
+@import url(base/fonts.css);
+@import url(base/color.css);
+@import url(components/_buttons.css);
+@import url(components/_filters.css);
+@import url(layout/_navbar.css);
+@import url(layout/_footer.css);
+@import url(components/_city-grid.css);
+@import url(components/_activity-grid.css);
+@import url(layout/_main-article.css);
+@import url(components/_search.css);
+@import url(base/fonts.css);
 
 body {
-  background-color: red;
+  background-color: salmon;
 }
