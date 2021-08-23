@@ -4,7 +4,7 @@
   "description": "OC Project 3, Sass first utilisation",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:.public/css/style.css"
+    "sass": "sass --watch ./root/sass/main.scss:.public/css/style.css"
   },
   "repository": {
     "type": "git",
