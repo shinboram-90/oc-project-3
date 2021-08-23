@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shinboram-90/oc-project-3.git"
+    "url": "git+https://github.com/shinboram-90/oc-project-3/root.git"
   },
   "author": "lisa",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shinboram-90/oc-project-3/issues"
+    "url": "https://github.com/shinboram-90/oc-project-3/root/issues"
   },
-  "homepage": "https://github.com/shinboram-90/oc-project-3#readme"
+  "homepage": "https://github.com/shinboram-90/oc-project-3/root#readme"
 }
