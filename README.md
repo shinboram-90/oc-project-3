@@ -1,24 +1,58 @@
-# oc-project-2
-Transformez une maquette en site web
+# oc-project-3
 
-Éléments fournis par l'entreprise virtuelle
+<h2>Dynamisez une page web avec des animations CSS</h2>
 
-Les maquettes desktop et mobile sont fournies
-Les icônes proviennent de Font Awesome
-Les couleurs : bleu #0065FC - bleu clair #DEEBFF - gris #F2F2F2
-La police : "Raleway"
+Les couleurs : primaire #9356DC - secondaire #FF79DA - tertiaire #99E2D0
+La police : logo et titres : "Shrikhand" - texte : "Roboto"
 
-Cahier des charges
+<h3>Fonctionnement</h3>
 
-L'integration doit se faire en HTML5 & CSS3, sans framework (bootstrap par exemple)
-Le champ de recherche doit être un champ de saisie, dont le texte peut être édité. La fonctionnalité de recherche ne doit pas être implémenté pour autant.
-Chaque carte d’hébergement ou d’activité devra être cliquable dans son intégralité. Pour l’instant les liens seront vides.
-Les filtres, bien que non fonctionnels, doivent changer de style au survol.
-Dans le menu, les liens “Hébergements” et “Activités” sont des ancres qui doivent mener aux sections de la page.
-Même si aucune maquette pour la résolution tablette n'est fournis, l'intégration doit la prendre en charge.
-Les images doivent être de taille adéquate afin qu'elle soit le plus jolie possible en impactant le moins possible le temps de chargement de la page.
-Le code devra utiliser les balises sémantiques et ne doit contenir aucune erreur ni alerte au validateur W3C HTML et CSS.
-Le site devra être compatible avec les dernières versions de Chrome et Firefox.
-Le HTML et le CSS doivent être séparés et le dossier doit être organisé
-Le code doit être versionné avec git et doit avoir un repo distant sur Github ou Gitlab
-Le site doit être responsive
+<h4>Technologies</h4>
+● Le développement devra se faire en CSS, sans JavaScript.
+● Aucun framework ne devra être utilisé, en revanche l’utilisation de SASS serait un
+plus.
+● Aucun code CSS ne devra être appliqué via un attribut style dans une balise HTML.
+
+<h4>Compatibilité</h4>
+Le site sera développé en utilisant l’approche mobile-first. Pour cette raison, seules des maquettes mobiles seront réalisées.
+
+Sur tablette et desktop, le site devra s’adapter, mais ces supports n’étant pas prioritaires, leur mise en page est libre.
+
+● L’ensemble du site devra être responsive sur mobile, tablette et desktop.
+● Les pages devront passer la validation W3C en HTML et CSS sans erreur.
+● Le site doit être parfaitement compatible avec les dernières versions desktop de
+Chrome et Firefox.
+
+<h3>Contenu des pages</h3>
+
+<h4>Page d’accueil (x1)</h4>
+● Affichage de la localisation des restaurants. À terme il sera possible de choisir sa localisation pour trouver des restaurants proches d’un certain lieu.
+● Une courte présentation de l’entreprise.
+● Une section contenant les 4 menus sous forme cartes. Au clic sur la carte,
+l’utilisateur est redirigé vers la page du menu.
+
+<h4>Pages de menu (x4)</h4>
+● 4 pages contenant chacune le menu d’un restaurant.
+
+<h4>Footer</h4>
+● Le footer est identique sur toutes les pages.
+● Au clic sur “Contact”, un renvoi vers une adresse mail est effectué.
+
+<h4>Header</h4>
+● Le header est présent sur toutes les pages.
+● Sur la page d’accueil, il contient le logo du site.
+● Sur les pages de menu, il contient en plus un bouton de retour vers la page d’accueil
+
+<h3>Effets graphiques et animations</h3>
+Les effets accessibles au clic ou au survol sont visibles sur la maquette. Ils devront utiliser les animations ou transitions CSS, pas de JavaScript ni de librairie.
+
+<h4>Boutons</h4>
+● Au survol, la couleur de fond des boutons principaux devra légèrement s’éclaircir. L’ombre portée devra également être plus visible.
+● À terme, les visiteurs pourront sauvegarder leurs menus préférés. Pour ça, un bouton "J’aime" en forme de cœur est présent sur la maquette. Au clic, il devra se remplir progressivement. Pour cette première version, l’effet peut être apparaître au survol sur desktop au lieu du clic.
+
+<h4>Page d’accueil</h4>
+● Quand l’application aura plus de menus, un “loading spinner” sera nécessaire. Sur cette maquette, nous souhaitons en avoir un aperçu. Il devra apparaître pendant 1 à 3 secondes quand on arrive sur la page d'accueil, couvrir l'intégralité de l'écran, et utiliser les animations CSS (pas de librairie). Le design de ce loader n’est pas défini, toute proposition est donc la bienvenue tant qu’elle est cohérente avec la charte graphique du site.
+
+<h4>Pages de menu</h4>
+● À l’arrivée sur la page, les plats devront apparaître progressivement avec un léger décalage dans le temps. Ils pourront soit apparaître un par un, soit par groupe “Entrée”, “Plat” et “Dessert”. Un exemple de l’effet attendu est fourni.
+● Le visiteur peut ajouter les plats qu'il souhaite à sa commande en cliquant dessus. Cela fait apparaître une petite coche à droite du plat. Cette coche devra coulisser de la droite vers la gauche. Pour cette première version, l’effet peut apparaître au survol sur desktop au lieu du clic. Si l’intitulé du plat est trop long, il devra être rogné avec des points de suspension. Un exemple de l’effet attendu est fourni.

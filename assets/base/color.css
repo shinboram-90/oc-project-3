@@ -1,5 +1,5 @@
 :root {
-  --clr-accent: #0065fc;
-  --clr-light: #deebff;
-  --clr-grey: #f2f2f2;
+  --clr-primary: #9356dc;
+  --clr-secondary: #ff79da;
+  --clr-tertiary: #99e2d0;
 }
