@@ -1,7 +1,7 @@
 {
-  "name": "writing-sass",
+  "name": "ohmyfood",
   "version": "1.0.0",
-  "description": "Joe Blow's portfolio",
+  "description": "OC Project 3, Sass first utilisation",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:.public/css/style.css"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/shinboram-90/oc-project-3.git"
   },
-  "author": "gerkx",
+  "author": "lisa",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/shinboram-90/oc-project-3/issues"
