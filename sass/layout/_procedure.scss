@@ -1,0 +1,76 @@
+.procedure {
+  background: $colour-white;
+  padding: $padding-section;
+
+  @media (min-width: 600px) {
+    padding: $padding-section-m;
+  }
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 0;
+    @media (min-width: 992px) {
+      display: flex;
+      flex-direction: row;
+      column-gap: 2rem;
+      flex-wrap: wrap;
+      &--card {
+        flex: 1;
+      }
+    }
+
+    &--card {
+      background-color: #f6f6f6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin: 0.7rem 0 0.7rem 0.8rem;
+      padding: 1.5rem 2rem;
+      border-radius: 20px;
+      box-shadow: rgba(0, 0, 0, 0.12) 0px 8px 15px;
+      &:hover {
+        background-color: $colour-pink-light;
+        transition: all 0.3s ease-in-out;
+
+        .procedure__box--card-icon {
+          color: $colour-primary;
+        }
+      }
+      & p {
+        font-weight: 500;
+        color: #1f1f1f;
+      }
+    }
+  }
+}
+
+.small-grid {
+  display: inline-grid;
+  grid-template-columns: 2.2rem 11.5rem 2.2rem;
+  align-items: center;
+  & > span {
+    display: contents;
+  }
+}
+
+.procedure__box--card-icon {
+  color: #7e7e7e;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+}
+
+.rounded-number {
+  position: absolute;
+  left: -0.8rem;
+  background-color: $colour-primary;
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+  line-height: 1.58rem;
+  text-align: center;
+  color: $colour-white;
+  font-weight: 400;
+}

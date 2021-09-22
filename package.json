@@ -1,19 +1,25 @@
 {
   "name": "ohmyfood",
   "version": "1.0.0",
-  "description": "OC Project 3, Sass first utilisation",
+  "description": "Project 3 | Oh my food restaurant",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./docs/sass/main.scss:./docs/.public/css/style.css"
+    "sass": "sass --watch ./sass/main.scss:public/css/style.css"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shinboram-90/oc-project-3/root.git"
+    "url": "git+https://github.com/shinboram-90/third_project.git"
   },
-  "author": "lisa",
+  "author": "gerkx",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shinboram-90/oc-project-3/issues"
+    "url": "https://github.com/shinboram-90/third_project/issues"
   },
-  "homepage": "https://github.com/shinboram-90/oc-project-3#readme"
+  "homepage": "https://github.com/shinboram-90/third_project#readme",
+  "keywords": [
+    "sass",
+    "openclassrooms",
+    "project3",
+    "ohmyfood"
+  ]
 }
