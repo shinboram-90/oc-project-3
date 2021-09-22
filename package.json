@@ -1,25 +1,27 @@
 {
-  "name": "ohmyfood",
+  "name": "optimizationreport",
   "version": "1.0.0",
-  "description": "Project 3 | Oh my food restaurant",
+  "description": "Project 4 | Optimization Report",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:public/css/style.css"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shinboram-90/third_project.git"
+    "url": "git+https://github.com/shinboram-90/optimization-report.git"
   },
   "author": "gerkx",
-  "license": "ISC",
+  "license": "GPLv3",
   "bugs": {
-    "url": "https://github.com/shinboram-90/third_project/issues"
+    "url": "https://github.com/shinboram-90/optimization-report/issues"
   },
-  "homepage": "https://github.com/shinboram-90/third_project#readme",
+  "homepage": "https://github.com/shinboram-90/optimization-report#readme",
   "keywords": [
-    "sass",
+    "audit",
+    "SEO",
+    "accessibility",
     "openclassrooms",
-    "project3",
-    "ohmyfood"
+    "project4",
+    "optimization report"
   ]
 }
