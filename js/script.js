@@ -11,3 +11,14 @@ const myFullpage = new fullpage("#fullpage", {
   ],
   slidesNavigation: true,
 });
+
+// (function () {
+const source = document.getElementsByClassName("my-btn");
+Array.from(source).forEach((btn) => {
+  btn.addEventListener("click", () => {
+    swal("Good job!", "You clicked the button!", "success", {
+      button: "Aww yiss!",
+    });
+  });
+});
+// });
