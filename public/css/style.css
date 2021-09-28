@@ -8,7 +8,6 @@
 
 body {
   box-sizing: border-box;
-  background: #eaeaea;
 }
 
 a {
@@ -17,35 +16,6 @@ a {
 }
 a:visited, a:link, a:active {
   color: black;
-}
-
-.big__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  row-gap: 1rem;
-}
-.big__container--img {
-  position: relative;
-}
-.big__container--img .fas {
-  position: absolute;
-  bottom: 2rem;
-  left: 2rem;
-  font-size: 2rem;
-}
-.big__container--img > img {
-  border-radius: 4px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-
-.fa-exclamation-triangle {
-  color: #e05555;
-}
-
-.fa-magic {
-  color: #09ce6b;
 }
 
 body {
@@ -203,100 +173,39 @@ p {
   text-align: center;
 }
 
-.header {
-  text-align: center;
+.big__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
 }
-.header__nav {
-  padding: 0.5rem 0 0.2rem 0;
-  background: #fff;
-  box-shadow: rgba(0, 0, 0, 0.25) 0 1px 10px;
+.big__container--img {
   position: relative;
 }
-.header__nav--arrow {
+.big__container--img .fas {
   position: absolute;
-  top: 50%;
+  bottom: 2rem;
   left: 2rem;
-  transform: translate(-50%, -50%);
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
-@media all and (min-width: 600px) {
-  .header__nav--arrow {
-    left: 4.5rem;
-  }
-}
-.header__location {
-  padding: 0.8rem;
-  color: #464646;
-}
-.header__location--box {
-  display: inline-grid;
-  font-size: 1.1rem;
-  grid-template-columns: 1fr 2fr 1fr;
-  align-items: baseline;
-}
-.header__location--box span {
-  font-weight: 500;
-  font-size: 1.1rem;
-}
-.header__content {
-  background-color: #f6f6f6;
-  padding: 2.5rem 1.7rem;
-}
-.header__content h2,
-.header__content p {
-  line-height: normal;
-  padding-bottom: 1rem;
-}
-.header__content--p {
-  font-size: 1.15rem;
+.big__container--img > img {
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.background-img {
-  height: 275px;
-  background-size: cover;
-  background-position: center;
-}
-@media all and (min-width: 600px) {
-  .background-img {
-    height: 375px;
-  }
-}
-@media all and (min-width: 1340px) {
-  .background-img {
-    height: 475px;
-  }
+.fa-exclamation-triangle {
+  color: #e05555;
 }
 
-.palette {
-  background-image: url("../../public/img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+.fa-magic {
+  color: #09ce6b;
 }
 
-.francaise {
-  background-image: url("../../public/img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
-}
-
-.delice {
-  background-image: url("../../public/img/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
-}
-
-.note {
-  background-image: url("../../public/img/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
-}
-
-.container {
-  margin-top: -60px;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  padding: 1.7rem 1rem 4.2rem 1rem;
-  background-color: #f6f6f6;
-}
-.container__title {
-  padding: 0 1rem 1.4rem 0;
-}
-@media (min-width: 600px) {
-  .container {
-    padding: 3rem 4.5rem 3.5rem 4.5rem;
-  }
+.huge-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
