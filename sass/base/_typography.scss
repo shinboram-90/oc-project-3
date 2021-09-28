@@ -6,16 +6,25 @@ body {
   line-height: 1.7;
 }
 
-h1 {
+h1,
+h2,
+h3 {
   font-family: "Quicksand", sans-serif;
-  font-size: 2rem;
   text-align: center;
+}
+
+h1 {
+  padding-bottom: 2rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
 h2 {
-  text-align: center;
-  font-size: 600;
+  font-weight: 600;
+}
+
+h3 {
+  padding-bottom: 1rem;
 }
 
 // .h1-noslider {
@@ -26,7 +35,11 @@ h2 {
 // }
 
 p {
-  margin: 3rem;
+  margin: 1rem 0;
+}
+
+.fp-tableCell {
+  padding: 3rem;
 }
 
 .fp-bottom {
