@@ -17,6 +17,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css"
     />
     <link rel="stylesheet" href="public/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/7d17636476.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- <select id="demosMenu">
@@ -98,8 +102,52 @@
         />
       </div>
       <div class="section" id="section1">
-        <div class="slide"><h1>SEO</h1></div>
-        <div class="slide active"><h2>Balises</h2></div>
+        <div class="slide">
+          <h1>LIGHTHOUSE</h1>
+          <div class="big__container">
+            <div class="big__container--img">
+              <i class="fas fa-exclamation-triangle"></i>
+              <img
+                class="lighthouse"
+                width="800"
+                src="./public/img/screenshots/desktop/lighthouse/dot.jpg"
+                alt="page d'accueil avant mofification"
+              />
+            </div>
+            <div class="big__container--img">
+              <i class="fas fa-magic"></i>
+              <img
+                class="lighthouse"
+                width="800"
+                src="./public/img/screenshots/desktop/lighthouse/index.jpg"
+                alt="page d'accueil apres modification"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="slide active">
+          <h2>Balises</h2>
+          <div class="big__container">
+            <div class="big__container--img">
+              <i class="fas fa-exclamation-triangle"></i>
+              <img
+                class="lighthouse"
+                width="800"
+                src="./public/img/screenshots/desktop/lighthouse/page2.jpg"
+                alt="page d'accueil avant mofification"
+              />
+            </div>
+            <div class="big__container--img">
+              <i class="fas fa-magic"></i>
+              <img
+                class="lighthouse"
+                width="800"
+                src="./public/img/screenshots/desktop/lighthouse/contact.jpg"
+                alt="page d'accueil apres modification"
+              />
+            </div>
+          </div>
+        </div>
         <div class="slide"><h2>Connexion securisee</h2></div>
         <div class="slide"><h2>Structure du code</h2></div>
       </div>
@@ -111,8 +159,8 @@
         <h1>Performances</h1>
         <!-- <p>minifier</p>
         <p>taille des images</p> -->
-        <div class="img__container">
-          <div class="img__container--content">
+        <div class="base__container">
+          <div class="base__container--content">
             <h3>AVANT</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
@@ -120,15 +168,14 @@
               perspiciatis debitis iste nulla nihil ipsam, quod sed eius enim
               culpa possimus. Quibusdam, magni illum?
             </p>
-            <div class="img__container--content--item">
+            <div class="base__container--content--item">
               <img
                 src="./public/img/screenshots/desktop/1-before.jpg"
                 alt="image avant optimisation"
-                class="img-before"
               />
             </div>
           </div>
-          <div class="img__container--content">
+          <div class="base__container--content">
             <h3>APRÈS</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
@@ -136,24 +183,105 @@
               corrupti vero distinctio sint laborum omnis autem? Repellendus
               fugit reprehenderit facere velit quisquam?
             </p>
-            <div class="img__container--content--item">
+            <div class="base__container--content--item" id="no-need">
               <img
                 src="./public/img/screenshots/desktop/1-after.webp"
                 alt="image apres optimisation"
-                class="img-after"
               />
             </div>
           </div>
         </div>
       </div>
       <div class="section" id="section4">
-        <h1>Conclusion</h1>
+        <h1>Audit</h1>
+        <div class="base__container">
+          <ul class="ul-audit">
+            <li>
+              <span>
+                Le temps de réponse initial du serveur était court Le document
+                racine a pris 150 ms
+              </span>
+            </li>
+            <li>
+              <span>Éviter une taille excessive de DOM 174 éléments</span>
+            </li>
+            <li><span>Réduire le travail du thread principal 0,8 s</span></li>
+            <li><span>Différez le chargement des images hors écran</span></li>
+            <li><span>Réduisez la taille des ressources CSS</span></li>
+            <li><span>Activez la compression de texte</span></li>
+            <li>
+              <span>Connectez-vous à l'avance aux origines souhaitées</span>
+            </li>
+            <li><span>Évitez les redirections de page multiples</span></li>
+            <li>
+              <span>Utilisez des formats vidéo pour le contenu animé</span>
+            </li>
+            <li>
+              <span>
+                Supprimez les modules en double dans les groupes JavaScript
+              </span>
+            </li>
+            <li>
+              <span>
+                Évitez d'utiliser de l'ancien code JavaScript dans les
+                navigateurs récents
+              </span>
+            </li>
+            <li><span>Délai d'exécution de JavaScript 0,1 s</span></li>
+            <li>
+              <span>Largest Contentful Paint image was not lazily loaded</span>
+            </li>
+            <li>
+              <span>
+                La page utilise des écouteurs d'événements passifs pour
+                améliorer les performances de défilement
+              </span>
+            </li>
+            <li><span>Évite document.write()</span></li>
+            <li>
+              <span>
+                Une balise meta name="viewport" ayant l'attribut width ou
+                initial-scale est configurée
+              </span>
+            </li>
+          </ul>
+
+          <ul class="ul-audit">
+            <!-- SUCCESS -->
+            <li>
+              <span>
+                Le temps de réponse initial du serveur était court Le document
+                racine a pris <strong>110 ms</strong>
+              </span>
+            </li>
+            <li>
+              <span
+                >Éviter une taille excessive de DOM
+                <strong>124 éléments</strong></span
+              >
+            </li>
+            <li>
+              <span
+                >Réduire le travail du thread principal
+                <strong>0,6 s</strong></span
+              >
+            </li>
+            <li id="special-li"><i class="fas fa-plus"></i></li>
+            <li><span>Dimensionnez correctement les images</span></li>
+            <li><span>Encodez les images de manière efficace</span></li>
+            <li>
+              <span>Diffusez des images aux formats nouvelle génération</span>
+            </li>
+            <li>
+              <span>
+                Éviter d'énormes charges utiles de réseau La taille totale était
+                de 538 Kio
+              </span>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-
-    <!-- <div class="outsider">
-      <img src="./public/img/screenshots/desktop/1-before.jpg" alt="" />
-    </div> -->
 
     <script
       type="text/javascript"

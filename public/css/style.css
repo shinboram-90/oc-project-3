@@ -11,16 +11,41 @@ body {
   background: #eaeaea;
 }
 
-li {
-  list-style: none;
-}
-
 a {
   text-decoration: none;
   cursor: pointer;
 }
 a:visited, a:link, a:active {
   color: black;
+}
+
+.big__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+}
+.big__container--img {
+  position: relative;
+}
+.big__container--img .fas {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  font-size: 2rem;
+}
+.big__container--img > img {
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.fa-exclamation-triangle {
+  color: #e05555;
+}
+
+.fa-magic {
+  color: #09ce6b;
 }
 
 body {
@@ -46,6 +71,7 @@ h1 {
 
 h2 {
   font-weight: 600;
+  padding-bottom: 1rem;
 }
 
 h3 {
@@ -80,23 +106,28 @@ p {
   width: 200px;
 }
 
-.img__container {
+.base__container {
   display: flex;
   justify-content: space-around;
   column-gap: 1rem;
 }
-.img__container--content {
+.base__container--content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 50%;
   align-items: center;
 }
-.img__container--content--item {
-  width: 320px;
-  height: 320px;
+.base__container--content--item {
+  width: 325px;
+  height: 325px;
   overflow: scroll;
   position: relative;
+}
+
+#no-need {
+  object-fit: cover;
+  overflow: hidden;
 }
 
 .inner {
@@ -150,6 +181,26 @@ p {
 
 .bg1 {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGnBPfbRT5Qu2rMGAktHvODE4knqlF5lwlYhqhV8XiGUCcX_19O28HQJ8WfDC8Pdvo34U&usqp=CAU);
+}
+
+.ul-audit {
+  width: 47%;
+  position: relative;
+}
+.ul-audit > li {
+  list-style-image: url("/public/img/tools/circle-solid.svg");
+  font-size: 1.8rem;
+  line-height: 1.2;
+}
+.ul-audit > li > span {
+  font-size: 1rem;
+}
+
+#special-li {
+  padding: 2rem;
+  list-style-position: inside;
+  list-style: none;
+  text-align: center;
 }
 
 .header {
