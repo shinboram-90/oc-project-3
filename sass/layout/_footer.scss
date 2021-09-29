@@ -1,0 +1,15 @@
+.gt-metrix-logo {
+  position: absolute;
+  margin-bottom: 1rem;
+  top: 2rem;
+  left: 3rem;
+}
+
+.fullscreen {
+  & :last-child {
+    height: 73vh;
+    display: block;
+    margin: auto;
+    padding-top: 1rem;
+  }
+}

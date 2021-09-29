@@ -53,7 +53,7 @@ p {
 }
 
 .fp-tableCell {
-  padding: 3rem;
+  padding: 2rem 3rem;
 }
 
 .fp-bottom {
@@ -158,7 +158,7 @@ p {
   position: relative;
 }
 .ul-audit > li {
-  list-style-image: url("/public/img/tools/circle-solid.svg");
+  list-style-image: url("../../public/img/tools/circle-solid.svg");
   font-size: 1.8rem;
   line-height: 1.2;
 }
@@ -171,6 +171,20 @@ p {
   list-style-position: inside;
   list-style: none;
   text-align: center;
+}
+
+.gt-metrix-logo {
+  position: absolute;
+  margin-bottom: 1rem;
+  top: 2rem;
+  left: 3rem;
+}
+
+.fullscreen :last-child {
+  height: 73vh;
+  display: block;
+  margin: auto;
+  padding-top: 1rem;
 }
 
 .big__container {
@@ -206,6 +220,15 @@ p {
   display: flex;
   justify-content: center;
   column-gap: 2rem;
+}
+
+.shadow {
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.fb-img {
+  margin-bottom: 5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
