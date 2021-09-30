@@ -16,12 +16,14 @@
 
 .button {
   -webkit-tap-highlight-color: transparent;
+  margin: 0 auto;
+  text-align: center;
   appearance: none;
   border-radius: 100px;
   border: 2px solid black;
   border: 0;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  color: white;
+  // color: white;
   cursor: pointer;
   font-size: 1.2em;
   margin-top: 20px;
@@ -32,7 +34,7 @@
   width: 300px;
 }
 
-#container {
+.center {
   text-align: center;
 }
 
@@ -44,5 +46,5 @@
   width: 100%;
 }
 .bg1 {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGnBPfbRT5Qu2rMGAktHvODE4knqlF5lwlYhqhV8XiGUCcX_19O28HQJ8WfDC8Pdvo34U&usqp=CAU);
+  background-image: url("https://wwvalue.com/ct/2017/03/free-vector-textures-backgrounds-high-quality-02.jpg");
 }

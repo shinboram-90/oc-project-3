@@ -19,3 +19,35 @@ a {
     color: black;
   }
 }
+
+.white {
+  color: white;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+.column-spaced {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.width-adjusted {
+  width: 80vw;
+}
+
+// SWEETALERT
+body.swal2-shown > [aria-hidden="true"] {
+  transition: 0.1s filter;
+  filter: blur(1px);
+}
+
+// FULLPAGEJS
+.fp-tableCell {
+  padding: 2rem 3rem;
+}
+
+.fp-bottom {
+  text-align: center;
+}

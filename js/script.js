@@ -1,7 +1,10 @@
 const myFullpage = new fullpage("#fullpage", {
-  sectionsColor: ["#f2f2f2", "#4BBFC3", "#7BAABE", "whitesmoke", "#ccddff"],
+  sectionsColor: ["#f2f2f2", "#4BBFC3", "#7BAABE", "#1f1f23", "#ccddff"],
   autoScrolling: true,
   navigation: true,
+  scrollOverflow: true,
+  normalScrollElements: ".swal2-popup, .stop-scroll",
+
   navigationTooltips: [
     "Accueil",
     "SEO",
@@ -12,16 +15,34 @@ const myFullpage = new fullpage("#fullpage", {
   slidesNavigation: true,
 });
 
-// (function () {
 const source = document.getElementsByClassName("btn");
-Array.from(source).forEach((btn) => {
-  btn.addEventListener("click", () => {
-    swal("Good job!", "You clicked the button!", "success", {
-      button: "Aww yiss!",
-    });
+source[0].addEventListener("click", () => {
+  Swal.fire("OK????");
+});
+
+source[1].addEventListener("click", () => {
+  Swal.fire({
+    imageUrl: "../public/img/screenshots/gtmetrix/graphs.webp",
+    background: "#1f1f23cc",
+    confirmButtonColor: "black",
   });
 });
-// });
+
+const mockup = document.getElementsByClassName("btn-mockup");
+mockup[0].addEventListener("click", () => {
+  Swal.fire({
+    imageUrl: "../public/img/tools/before.webp",
+    background: "#1f1f23cc",
+    confirmButtonColor: "black",
+  });
+});
+mockup[1].addEventListener("click", () => {
+  Swal.fire({
+    imageUrl: "../public/img/tools/after.webp",
+    background: "#1f1f23cc",
+    confirmButtonColor: "black",
+  });
+});
 
 const buttons = document.querySelectorAll(".button");
 buttons.forEach((button) => {
@@ -36,7 +57,17 @@ buttons.forEach((button) => {
   button.addEventListener("mousemove", (e) => {
     handleMove(e);
   });
-  button.addEventListener("touchmove", (e) => {
-    handleMove(e.changedTouches[0]);
-  });
+  // button.addEventListener("touchmove", (e) => {
+  //   handleMove(e.changedTouches[0]);
+  // });
 });
+
+// const essai = document.getElementsByClassName("btn-mockup-1");
+// Array.from(essai).forEach((btn) => {
+//   btn.addEventListener("click", () => {
+
+//     Swal.fire({
+//       imageUrl: "../public/img/tools/mobile-mockup.webp",
+//     });
+//   });
+// });

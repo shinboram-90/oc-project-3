@@ -17,7 +17,7 @@
 .base__container {
   display: flex;
   justify-content: space-around;
-  column-gap: 1rem;
+  column-gap: 2rem;
   &--content {
     display: flex;
     flex-direction: column;
@@ -29,6 +29,9 @@
       height: 325px;
       overflow: scroll;
       position: relative;
+    }
+    & > ul {
+      padding-bottom: 1rem;
     }
   }
 }

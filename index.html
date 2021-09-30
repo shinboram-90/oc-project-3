@@ -86,7 +86,7 @@
           optimisée, fourni dans un rapport d’optimisation. Ce rapport devra
           inclure les comparaisons pour les 10 recommandations.
         </p>
-        <div id="container">
+        <div class="center">
           <button class="button btn">
             <div class="pattern">
               <div class="target inner bg1"></div>
@@ -97,11 +97,11 @@
       </div>
       <!--------------------- BOOK SLIDES --------------------->
       <div class="section" id="section1">
-        <div class="slide">
+        <div class="slide active">
           <!-- <h1>LIGHTHOUSE</h1> -->
           <h2>Première page</h2>
-          <div class="big__container">
-            <div class="big__container--img">
+          <div class="column__container">
+            <div class="column__container--img">
               <i class="fas fa-exclamation-triangle"></i>
               <img
                 class="lighthouse"
@@ -110,7 +110,7 @@
                 alt="page d'accueil avant mofification"
               />
             </div>
-            <div class="big__container--img">
+            <div class="column__container--img">
               <i class="fas fa-magic"></i>
               <img
                 class="lighthouse"
@@ -123,10 +123,10 @@
         </div>
 
         <!--------------------- 2EME SLIDE --------------------->
-        <div class="slide active">
+        <div class="slide">
           <h2>2ème page</h2>
-          <div class="big__container">
-            <div class="big__container--img">
+          <div class="column__container">
+            <div class="column__container--img">
               <i class="fas fa-exclamation-triangle"></i>
               <img
                 class="lighthouse"
@@ -135,7 +135,7 @@
                 alt="page d'accueil avant mofification"
               />
             </div>
-            <div class="big__container--img">
+            <div class="column__container--img">
               <i class="fas fa-magic"></i>
               <img
                 class="lighthouse"
@@ -149,9 +149,9 @@
         <!--------------------- 3EME SLIDE --------------------->
         <div class="slide">
           <h2>Version mobile</h2>
-          <div class="huge-container">
-            <div class="big__container">
-              <div class="big__container--img">
+          <div class="row-container space-evenly">
+            <div class="column__container">
+              <div class="column__container--img">
                 <i class="fas fa-exclamation-triangle"></i>
                 <img
                   class="lighthouse"
@@ -160,7 +160,7 @@
                   alt="page d'accueil avant mofification"
                 />
               </div>
-              <div class="big__container--img">
+              <div class="column__container--img">
                 <i class="fas fa-magic"></i>
                 <img
                   class="lighthouse"
@@ -170,8 +170,8 @@
                 />
               </div>
             </div>
-            <div class="big__container">
-              <div class="big__container--img">
+            <div class="column__container">
+              <div class="column__container--img">
                 <i class="fas fa-exclamation-triangle"></i>
                 <img
                   class="lighthouse"
@@ -180,7 +180,7 @@
                   alt="page d'accueil avant mofification"
                 />
               </div>
-              <div class="big__container--img">
+              <div class="column__container--img">
                 <i class="fas fa-magic"></i>
                 <img
                   class="lighthouse"
@@ -199,20 +199,56 @@
         <h1>Accessibilité</h1>
         <p>Couleurs de contraste</p>
       </div>
+
+      <!--------------------- OTHER SLIDE --------------------->
+      <div class="section" id="section2">
+        <h1 class="white">Responsive</h1>
+        <div class="row-container space-evenly">
+          <div>
+            <img src="./public/img/screenshots/mobile-1.webp" height="550" />
+          </div>
+          <div>
+            <img
+              src="./public/img/screenshots/mobile-2.webp"
+              alt=""
+              height="550"
+            />
+          </div>
+          <div class="column-spaced">
+            <!-- <p>Rendu après optimisation</p> -->
+            <div class="center">
+              <button class="button btn-mockup">
+                <div class="pattern">
+                  <div class="target inner bg1"></div>
+                </div>
+                <div class="text">Avant</div>
+              </button>
+            </div>
+            <div class="center">
+              <button class="button btn-mockup">
+                <div class="pattern">
+                  <div class="target inner bg1"></div>
+                </div>
+                <div class="text">Après</div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
       <!--------------------- OTHER SLIDE --------------------->
       <div class="section" id="section3">
         <h1>Performances</h1>
         <div class="base__container">
           <div class="base__container--content">
             <h3>AVANT</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
-              maxime iusto cupiditate explicabo voluptatibus suscipit,
-              perspiciatis debitis iste nulla nihil ipsam, quod sed eius enim
-              culpa possimus. Quibusdam, magni illum?
-            </p>
+            <ul>
+              <li>Taille : 273 Ko</li>
+              <li>Dimensions 1003x1003</li>
+              <li>Type : Image JPEG</li>
+            </ul>
             <div class="base__container--content--item">
               <img
+                class="stop-scroll"
                 src="./public/img/screenshots/1-before.jpg"
                 alt="image avant optimisation"
               />
@@ -220,12 +256,12 @@
           </div>
           <div class="base__container--content">
             <h3>APRÈS</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
-              molestias vitae iure laboriosam, repellendus, vel provident quo,
-              corrupti vero distinctio sint laborum omnis autem? Repellendus
-              fugit reprehenderit facere velit quisquam?
-            </p>
+            <ul>
+              <li>Taille : 21 Ko</li>
+              <li>Dimensions 320x320</li>
+              <li>Type : Image WebP</li>
+            </ul>
+
             <div class="base__container--content--item" id="no-need">
               <img
                 src="./public/img/screenshots/1-after.webp"
@@ -325,10 +361,9 @@
           </ul>
         </div>
       </div>
-      <!--------------------- BOOK SLIDES --------------------->
+      <!--------------------- GTMETRIX BOOK SLIDES --------------------->
       <div class="section" id="section1">
-        <div class="slide">
-          <!-- <h1>LIGHTHOUSE</h1> -->
+        <div class="slide active">
           <div class="fullscreen">
             <img
               class="gt-metrix-logo"
@@ -336,79 +371,40 @@
               alt="GTmetrix logo"
             />
             <img
-              src="./public/img/screenshots/gt-metrix.jpg"
+              src="./public/img/screenshots/gtmetrix/gt-metrix.webp"
               alt="comparaison avec GTmetrix"
             />
           </div>
         </div>
 
         <!--------------------- 1st SLIDE --------------------->
-        <div class="slide active">
-          <h2>2ème page</h2>
-          <div class="big__container">
-            <div class="big__container--img">
-              <i class="fas fa-exclamation-triangle"></i>
-              <img
-                class="lighthouse"
-                width="800"
-                src="./public/img/screenshots/lighthouse/desktop/page2.jpg"
-                alt="page d'accueil avant mofification"
-              />
-            </div>
-            <div class="big__container--img">
-              <i class="fas fa-magic"></i>
-              <img
-                class="lighthouse"
-                width="800"
-                src="./public/img/screenshots/lighthouse/desktop/contact.jpg"
-                alt="page d'accueil apres modification"
-              />
-            </div>
+        <div class="slide">
+          <h2>Performance</h2>
+          <div class="center">
+            <img
+              src="./public/img/screenshots/gtmetrix/perf.webp"
+              alt="GTmetrix performance"
+              height="450"
+            />
           </div>
         </div>
         <!--------------------- 2nd SLIDE --------------------->
         <div class="slide">
-          <h2>Version mobile</h2>
-          <div class="huge-container">
-            <div class="big__container">
-              <div class="big__container--img">
-                <i class="fas fa-exclamation-triangle"></i>
-                <img
-                  class="lighthouse"
-                  width="380"
-                  src="./public/img/screenshots/lighthouse/mobile/dot.jpg"
-                  alt="page d'accueil avant mofification"
-                />
-              </div>
-              <div class="big__container--img">
-                <i class="fas fa-magic"></i>
-                <img
-                  class="lighthouse"
-                  width="380"
-                  src="./public/img/screenshots/lighthouse/mobile/index.jpg"
-                  alt="page d'accueil apres modification"
-                />
-              </div>
-            </div>
-            <div class="big__container">
-              <div class="big__container--img">
-                <i class="fas fa-exclamation-triangle"></i>
-                <img
-                  class="lighthouse"
-                  width="380"
-                  src="./public/img/screenshots/lighthouse/mobile/page2.jpg"
-                  alt="page d'accueil avant mofification"
-                />
-              </div>
-              <div class="big__container--img">
-                <i class="fas fa-magic"></i>
-                <img
-                  class="lighthouse"
-                  width="380"
-                  src="./public/img/screenshots/lighthouse/mobile/contact.jpg"
-                  alt="page d'accueil apres modification"
-                />
-              </div>
+          <h2>Visualisation de la vitesse</h2>
+
+          <div class="column__container">
+            <img
+              src="./public/img/screenshots/gtmetrix/speed-visu.webp"
+              alt="Speed visualization"
+              class="width-adjusted"
+            />
+            <div class="center">
+              <button class="button btn">
+                <div class="pattern">
+                  <div class="target inner bg1"></div>
+                </div>
+                <div class="text">Graphs</div>
+              </button>
             </div>
           </div>
         </div>
@@ -450,12 +446,13 @@
       </div>
       <!--------------------- OTHER SLIDE --------------------->
     </div>
+    <img class="test" src="./public/img/screenshots/mobile-1.webp" alt="" />
 
     <script
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"
     ></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>
