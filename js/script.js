@@ -1,24 +1,27 @@
 const myFullpage = new fullpage("#fullpage", {
   sectionsColor: [
-    "#4BBFC3",
-    "#f2f2f2",
-    "#7BAABE",
-    "#f2f2f2",
-    "#1f1f23",
-    "#ccddff",
+    "#F2DFD7",
+    "#347FC4",
+    "#D4C1EC",
+    "#9F9FED",
+    "#202024",
+    "#52D1DC",
+    "#FEF9FF",
+    "#6C3A5C",
+    "#8ED081",
   ],
   autoScrolling: true,
   navigation: true,
   scrollOverflow: true,
   normalScrollElements: ".swal2-popup, .stop-scroll",
 
-  navigationTooltips: [
-    "Accueil",
-    "SEO",
-    "Accessibilité",
-    "Performance",
-    "Conclusion",
-  ],
+  // navigationTooltips: [
+  //   "Accueil",
+  //   "SEO",
+  //   "Accessibilité",
+  //   "Performance",
+  //   "Conclusion",
+  // ],
   slidesNavigation: true,
 });
 
@@ -28,7 +31,7 @@ const source = document.getElementsByClassName("btn");
 // ITERATION ON EACH OF THEM ORDER OF APPEARANCE
 source[0].addEventListener("click", () => {
   Swal.fire({
-    imageUrl: "./../public/img/screenshots/lighthouse/desktop/lh-before.webp",
+    imageUrl: "public/img/screenshots/lighthouse/desktop/lh-before.webp",
     background: "#1f1f23cc",
     confirmButtonColor: "black",
   });
@@ -36,7 +39,7 @@ source[0].addEventListener("click", () => {
 
 source[1].addEventListener("click", () => {
   Swal.fire({
-    imageUrl: "./../public/img/screenshots/lighthouse/desktop/lh-after.webp",
+    imageUrl: "public/img/screenshots/lighthouse/desktop/lh-after.webp",
     background: "#1f1f23cc",
     confirmButtonColor: "black",
   });
@@ -44,7 +47,7 @@ source[1].addEventListener("click", () => {
 
 source[2].addEventListener("click", () => {
   Swal.fire({
-    imageUrl: "./../public/img/screenshots/lighthouse/mobile/lh-m-before.webp",
+    imageUrl: "public/img/screenshots/lighthouse/mobile/lh-m-before.webp",
     background: "#1f1f23cc",
     confirmButtonColor: "black",
   });
@@ -52,7 +55,7 @@ source[2].addEventListener("click", () => {
 
 source[3].addEventListener("click", () => {
   Swal.fire({
-    imageUrl: "./../public/img/screenshots/lighthouse/mobile/lh-m-after.webp",
+    imageUrl: "public/img/screenshots/lighthouse/mobile/lh-m-after.webp",
     background: "#1f1f23cc",
     confirmButtonColor: "black",
   });
@@ -60,32 +63,32 @@ source[3].addEventListener("click", () => {
 
 source[4].addEventListener("click", () => {
   Swal.fire({
-    imageUrl: "./../public/img/screenshots/gtmetrix/graph.webp",
+    imageUrl: "public/img/screenshots/gtmetrix/graph.webp",
     background: "#1f1f23cc",
     confirmButtonColor: "black",
   });
 });
 
-// source[5].addEventListener("click", () => {
-//   Swal.fire({
-//     imageUrl: "./../public/img/mockups/m-before.webp",
-//     background: "#1f1f23cc",
-//     confirmButtonColor: "black",
-//   });
-// });
+source[5].addEventListener("click", () => {
+  Swal.fire({
+    imageUrl: "public/img/mockups/optimized-1.webp",
+    background: "#1f1f23cc",
+    confirmButtonColor: "black",
+  });
+});
 
-// source[5].addEventListener("click", () => {
-//   Swal.fire({
-//     imageUrl: "./..public/img/mockups/m-after.webp",
-//     background: "#1f1f23cc",
-//     confirmButtonColor: "black",
-//   });
-// });
+source[6].addEventListener("click", () => {
+  Swal.fire({
+    imageUrl: "public/img/mockups/optimized-2.webp",
+    background: "#1f1f23cc",
+    confirmButtonColor: "black",
+  });
+});
 
 const mockup = document.getElementsByClassName("btn-mockup");
 mockup[0].addEventListener("click", () => {
   Swal.fire({
-    imageUrl: "./../public/img/mockups/m-before.webp",
+    imageUrl: "public/img/mockups/m-before.webp",
     background: "#1f1f23cc",
     confirmButtonColor: "black",
   });
