@@ -2,10 +2,12 @@
 <html lang="fr">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>fullPage.js A simple Demo</title>
-    <meta name="author" content="Alvaro Trigo Lopez" />
-    <meta name="description" content="fullPage very simple demo." />
-    <meta name="keywords" content="fullpage,jquery,demo,simple" />
+    <title>Rapport d'optimisation | Lisa Chatellier</title>
+
+    <meta
+      name="description"
+      content="Projet 4 d'OpenClassrooms : optimisation d'un site web existant"
+    />
     <meta name="Resource-type" content="Document" />
 
     <link
@@ -71,7 +73,7 @@
 
     <div id="fullpage">
       <div class="section active" id="section0">
-        <h1>Rapport d'optimisation</h1>
+        <h1>Rapport d'optimisation | La Chouette Agence</h1>
         <p>
           Comparaison du site "La Chouette Agence" avant et après les
           mofification apportées
@@ -86,19 +88,84 @@
           optimisée, fourni dans un rapport d’optimisation. Ce rapport devra
           inclure les comparaisons pour les 10 recommandations.
         </p>
-        <div class="center">
-          <button class="button btn">
-            <div class="pattern">
-              <div class="target inner bg1"></div>
-            </div>
-            <div class="text">Learn more</div>
-          </button>
+        <div class="row__container">
+          <a href="https://shinboram-90.github.io/LisaChatellier_4_before/">
+            <button class="button">
+              <div class="pattern">
+                <div class="target inner bg-before"></div>
+              </div>
+
+              <div class="text btn-white">AVANT</div>
+            </button>
+          </a>
+          <a href="https://shinboram-90.github.io/LisaChatellier_4_06102021/">
+            <button class="button">
+              <div class="pattern">
+                <div class="target inner bg-after"></div>
+              </div>
+
+              <div class="text">APRÈS</div>
+            </button>
+          </a>
         </div>
       </div>
       <!--------------------- BOOK SLIDES --------------------->
       <div class="section" id="section1">
         <div class="slide active">
-          <!-- <h1>LIGHTHOUSE</h1> -->
+          <div class="lh-img logo-img">
+            <img
+              src="./public/img/screenshots/lighthouse/lighthouse-logo.png"
+              alt="Lighthouse logo"
+              height="100"
+            />
+            <h1>Lighthouse</h1>
+          </div>
+
+          <div class="row__container">
+            <div class="column__container">
+              <i class="fas fa-desktop"></i>
+              <div class="center">
+                <button class="button btn btn-white">
+                  <div class="pattern">
+                    <div class="target inner bg-before"></div>
+                  </div>
+                  <div class="text">AVANT</div>
+                </button>
+              </div>
+              <div class="center">
+                <button class="button btn">
+                  <div class="pattern">
+                    <div class="target inner bg-after"></div>
+                  </div>
+                  <div class="text">APRÈS</div>
+                </button>
+              </div>
+            </div>
+            <div class="column__container">
+              <i class="fas fa-mobile-alt"></i>
+              <div class="center">
+                <button class="button btn btn-white">
+                  <div class="pattern">
+                    <div class="target inner bg-before"></div>
+                  </div>
+                  <div class="text">AVANT</div>
+                </button>
+              </div>
+              <div class="center">
+                <button class="button btn">
+                  <div class="pattern">
+                    <div class="target inner bg-after"></div>
+                  </div>
+                  <div class="text">APRÈS</div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--------------------- 2EME SLIDE --------------------->
+
+        <div class="slide">
           <h2>Première page</h2>
           <div class="column__container">
             <div class="column__container--img">
@@ -106,7 +173,7 @@
               <img
                 class="lighthouse"
                 width="800"
-                src="./public/img/screenshots/lighthouse/desktop/dot.jpg"
+                src="./public/img/screenshots/lighthouse/desktop/dot.webp"
                 alt="page d'accueil avant mofification"
               />
             </div>
@@ -115,7 +182,7 @@
               <img
                 class="lighthouse"
                 width="800"
-                src="./public/img/screenshots/lighthouse/desktop/index.jpg"
+                src="./public/img/screenshots/lighthouse/desktop/index.webp"
                 alt="page d'accueil apres modification"
               />
             </div>
@@ -124,14 +191,14 @@
 
         <!--------------------- 2EME SLIDE --------------------->
         <div class="slide">
-          <h2>2ème page</h2>
+          <h2>Deuxième page</h2>
           <div class="column__container">
             <div class="column__container--img">
               <i class="fas fa-exclamation-triangle"></i>
               <img
                 class="lighthouse"
                 width="800"
-                src="./public/img/screenshots/lighthouse/desktop/page2.jpg"
+                src="./public/img/screenshots/lighthouse/desktop/page2.webp"
                 alt="page d'accueil avant mofification"
               />
             </div>
@@ -140,7 +207,7 @@
               <img
                 class="lighthouse"
                 width="800"
-                src="./public/img/screenshots/lighthouse/desktop/contact.jpg"
+                src="./public/img/screenshots/lighthouse/desktop/contact.webp"
                 alt="page d'accueil apres modification"
               />
             </div>
@@ -149,14 +216,14 @@
         <!--------------------- 3EME SLIDE --------------------->
         <div class="slide">
           <h2>Version mobile</h2>
-          <div class="row-container space-evenly">
+          <div class="row__container">
             <div class="column__container">
               <div class="column__container--img">
                 <i class="fas fa-exclamation-triangle"></i>
                 <img
                   class="lighthouse"
                   width="380"
-                  src="./public/img/screenshots/lighthouse/mobile/dot.jpg"
+                  src="./public/img/screenshots/lighthouse/mobile/front.webp"
                   alt="page d'accueil avant mofification"
                 />
               </div>
@@ -176,7 +243,7 @@
                 <img
                   class="lighthouse"
                   width="380"
-                  src="./public/img/screenshots/lighthouse/mobile/page2.jpg"
+                  src="./public/img/screenshots/lighthouse/mobile/back.webp"
                   alt="page d'accueil avant mofification"
                 />
               </div>
@@ -196,16 +263,147 @@
       </div>
       <!--------------------- OTHER SLIDE --------------------->
       <div class="section" id="section2">
-        <h1>Accessibilité</h1>
-        <p>Couleurs de contraste</p>
-      </div>
+        <div class="slide active">
+          <div class="logo-img lh-img">
+            <img
+              src="./public/img/tools/contrast-logo.png"
+              alt="Contrast WCAG logo"
+            />
+            <h1>Couleurs de contraste</h1>
+          </div>
+          <div class="padding-sides">
+            <p>
+              Utilisation de WCAG Contrast checker mais il faut aussi vérifier
+              manuellement le contraste des couleurs du site.
+            </p>
+            <p>
+              Le vérificateur d'accessibilité teste le contraste des couleurs
+              entre le texte et la couleur d'arrière-plan de son conteneur, et
+              non les images qui peuvent se trouver derrière le texte.
+            </p>
+            <p>
+              Tous les analyseurs de contraste des couleurs et les scanners
+              d'accessibilité standard sur le Web ignorent les images
+              d'arrière-plan lorsqu'ils vérifient le contraste. En effet, le
+              contraste entre le texte et son conteneur doit être suffisant si
+              l'image ne se charge pas et il est impossible d'obtenir une
+              couleur d'arrière-plan unique pour une photographie ou une image
+              qui contient probablement des centaines ou des milliers de
+              couleurs.
+            </p>
+          </div>
+        </div>
 
+        <div class="slide">
+          <h2 class="more-padding">Page d'accueil</h2>
+          <div class="flex-start">
+            <img
+              src="./public/img/screenshots/contrast/contast-check-before.webp"
+              alt="contrastel avant mofification"
+            />
+            <img
+              src="./public/img/screenshots/contrast/contrast-check-after.webp"
+              alt="contraste apres modification"
+            />
+          </div>
+        </div>
+
+        <div class="slide">
+          <h2 class="more-padding">Page contact</h2>
+          <div class="flex-start">
+            <img
+              src="./public/img/screenshots/contrast/contrast-check-before2.webp"
+              alt="contraste avant mofification"
+            />
+            <img
+              src="./public/img/screenshots/contrast/contrast-check-after2.webp"
+              alt="contraste apres modification"
+            />
+          </div>
+        </div>
+      </div>
+      <!--------------------- OTHER SLIDE --------------------->
+      <div class="section" id="section2">
+        <div class="slide active">
+          <div class="logo-img">
+            <img
+              src="./public/img/screenshots/wave/wavelogo.svg"
+              alt="Wave logo"
+            />
+            <h1>Accessibilité avec Wave</h1>
+          </div>
+          <div class="row__container">
+            <div class="left-container">
+              <h2>Avant</h2>
+              <img
+                src="./public/img/screenshots/wave/Wave-bef-1.webp"
+                alt="Wave check"
+                height="500"
+              />
+              <img
+                src="./public/img/screenshots/wave/Wave-bef-2.webp"
+                alt="Wave check page 2"
+                height="500"
+              />
+            </div>
+            <div class="right-container">
+              <h2>Après</h2>
+              <img
+                src="./public/img/screenshots/wave/Wave-after-1.webp"
+                alt="Wave check after"
+                height="500"
+              />
+              <img
+                src="./public/img/screenshots/wave/Wave-after-2.webp"
+                alt="Wave check after page 2"
+                height="500"
+              />
+            </div>
+          </div>
+
+          <div class="slide">
+            <h1>Structure</h1>
+            <div class="row__container">
+              <div class="left-container">
+                <h2>Avant</h2>
+                <img
+                  src="./public/img/screenshots/wave/s-before.webp"
+                  alt="Structure check"
+                  height="500"
+                />
+                <img
+                  src="./public/img/screenshots/wave/s-before-2.webp"
+                  alt="Structure check page 2"
+                  height="300"
+                />
+              </div>
+              <div class="right-container">
+                <h2>Après</h2>
+                <img
+                  src="./public/img/screenshots/wave/s-after.webp"
+                  alt="Structure check after"
+                  height="500"
+                />
+                <img
+                  src="./public/img/screenshots/wave/s-after-2.webp"
+                  alt="Structure check after page 2"
+                  height="300"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <!--------------------- OTHER SLIDE --------------------->
       <div class="section" id="section2">
         <h1 class="white">Responsive</h1>
-        <div class="row-container space-evenly">
+        <div class="row__container space-evenly">
           <div>
-            <img src="./public/img/screenshots/mobile-1.webp" height="550" />
+            <img
+              src="./public/img/screenshots/fullmobile.webp"
+              alt="Iphone avec image du site optimisé"
+              height="550"
+            />
           </div>
           <div>
             <img
@@ -237,7 +435,7 @@
       </div>
       <!--------------------- OTHER SLIDE --------------------->
       <div class="section" id="section3">
-        <h1>Performances</h1>
+        <h1>Images</h1>
         <div class="base__container">
           <div class="base__container--content">
             <h3>AVANT</h3>
@@ -446,7 +644,6 @@
       </div>
       <!--------------------- OTHER SLIDE --------------------->
     </div>
-    <img class="test" src="./public/img/screenshots/mobile-1.webp" alt="" />
 
     <script
       type="text/javascript"

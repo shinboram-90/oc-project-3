@@ -20,16 +20,38 @@
   }
 }
 
+.row__container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo-img {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+  & > h1 {
+    padding-bottom: 0;
+  }
+}
+
+.lh-img {
+  margin-bottom: 5rem;
+}
+
+// FONT-AWESOME
+.fa-desktop,
+.fa-mobile-alt {
+  font-size: 5rem;
+}
+
 .fa-exclamation-triangle {
   color: $colour-warning;
 }
 
 .fa-magic {
   color: $colour-success;
-}
-
-.row-container {
-  display: flex;
 }
 
 .shadow {
@@ -39,4 +61,10 @@
 
 .fb-img {
   margin-bottom: 5rem;
+}
+
+.flex-start {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
 }

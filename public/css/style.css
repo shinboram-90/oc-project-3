@@ -83,16 +83,24 @@ p {
   margin: 1rem 0;
 }
 
+.more-padding {
+  padding-bottom: 4rem;
+}
+
+.padding-sides {
+  padding: 0 10rem;
+}
+
 .fp-controlArrow {
   padding: 0 2.5rem;
 }
 
 .fp-prev {
-  border-color: transparent #888 transparent transparent !important;
+  border-color: transparent #2c302e transparent transparent !important;
 }
 
 .fp-next {
-  border-color: transparent transparent transparent #444 !important;
+  border-color: transparent transparent transparent #2c302e !important;
 }
 
 .test-img {
@@ -154,6 +162,7 @@ p {
   border: 2px solid black;
   border: 0;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  font-weight: 900;
   cursor: pointer;
   font-size: 1.2em;
   margin-top: 20px;
@@ -162,6 +171,10 @@ p {
   padding: 1em 2em;
   position: relative;
   width: 300px;
+}
+
+.btn-white {
+  color: white;
 }
 
 .center {
@@ -176,8 +189,12 @@ p {
   width: 100%;
 }
 
-.bg1 {
-  background-image: url("https://wwvalue.com/ct/2017/03/free-vector-textures-backgrounds-high-quality-02.jpg");
+.bg-before {
+  background-image: url("https://images.unsplash.com/photo-1583161056973-c0375771efb3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29sb3IlMjB0ZXh0dXJlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+}
+
+.bg-after {
+  background-image: url("https://images.unsplash.com/photo-1511877448058-cbf344a6a85a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80");
 }
 
 .ul-audit {
@@ -214,6 +231,11 @@ p {
   padding-top: 1rem;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
 .column__container {
   display: flex;
   flex-direction: column;
@@ -235,16 +257,37 @@ p {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
+.row__container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo-img {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+}
+.logo-img > h1 {
+  padding-bottom: 0;
+}
+
+.lh-img {
+  margin-bottom: 5rem;
+}
+
+.fa-desktop,
+.fa-mobile-alt {
+  font-size: 5rem;
+}
+
 .fa-exclamation-triangle {
   color: #e05555;
 }
 
 .fa-magic {
   color: #09ce6b;
-}
-
-.row-container {
-  display: flex;
 }
 
 .shadow {
@@ -254,6 +297,12 @@ p {
 
 .fb-img {
   margin-bottom: 5rem;
+}
+
+.flex-start {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
 }
 
 /*# sourceMappingURL=style.css.map */
