@@ -76,7 +76,8 @@
         <h1>Rapport d'optimisation | La Chouette Agence</h1>
         <h2>
           Comparaison du site "La Chouette Agence" avant et après les
-          mofification apportées
+          mofifications apportées dans le but d'accélérer la vitesse de
+          chargement du site.
         </h2>
         <!-- <p>
           TO DO: Comparaison des résultats. La vitesse de chargement des pages
@@ -95,7 +96,7 @@
                 <div class="target inner bg-before"></div>
               </div>
 
-              <div class="text btn-white">Avant</div>
+              <div class="text">Avant</div>
             </button>
           </a>
           <a href="https://shinboram-90.github.io/LisaChatellier_4_06102021/">
@@ -125,9 +126,9 @@
             <div class="column__container">
               <i class="fas fa-desktop"></i>
               <div class="center">
-                <button class="button btn btn-white">
+                <button class="button btn btn-dark">
                   <div class="pattern">
-                    <div class="target inner bg-before"></div>
+                    <div class="target inner bg-1"></div>
                   </div>
                   <div class="text">Avant</div>
                 </button>
@@ -135,7 +136,7 @@
               <div class="center">
                 <button class="button btn">
                   <div class="pattern">
-                    <div class="target inner bg-after"></div>
+                    <div class="target inner bg-2"></div>
                   </div>
                   <div class="text">Après</div>
                 </button>
@@ -144,9 +145,9 @@
             <div class="column__container">
               <i class="fas fa-mobile-alt"></i>
               <div class="center">
-                <button class="button btn btn-white">
+                <button class="button btn btn-dark">
                   <div class="pattern">
-                    <div class="target inner bg-before"></div>
+                    <div class="target inner bg-1"></div>
                   </div>
                   <div class="text">Avant</div>
                 </button>
@@ -154,7 +155,7 @@
               <div class="center">
                 <button class="button btn">
                   <div class="pattern">
-                    <div class="target inner bg-after"></div>
+                    <div class="target inner bg-2"></div>
                   </div>
                   <div class="text">Après</div>
                 </button>
@@ -323,7 +324,7 @@
         </div>
       </div>
       <!--------------------- OTHER SLIDE --------------------->
-      <div class="section" id="section2">
+      <div class="section" id="section3">
         <div class="slide active">
           <div class="logo-img">
             <img
@@ -395,7 +396,7 @@
         </div>
       </div>
       <!--------------------- OTHER SLIDE --------------------->
-      <div class="section" id="section2">
+      <div class="section" id="section4">
         <h1 class="white">Responsive</h1>
         <div class="row__container space-evenly">
           <div>
@@ -415,26 +416,34 @@
           <div class="column-spaced">
             <!-- <p>Rendu après optimisation</p> -->
             <div class="center">
-              <button class="button btn-mockup btn-white">
+              <button class="button btn-mockup">
                 <div class="pattern">
-                  <div class="target inner bg-before"></div>
+                  <div class="target inner bg-red"></div>
                 </div>
                 <div class="text">Avant</div>
               </button>
             </div>
             <div class="center">
-              <button class="button btn-mockup">
+              <button class="button btn-mockup btn-dark">
                 <div class="pattern">
-                  <div class="target inner bg-after"></div>
+                  <div class="target inner bg-green"></div>
                 </div>
-                <div class="text">Après</div>
+                <div class="text">Après 1ère page</div>
+              </button>
+            </div>
+            <div class="center">
+              <button class="button btn-mockup btn-dark">
+                <div class="pattern">
+                  <div class="target inner bg-green"></div>
+                </div>
+                <div class="text">Après 2ème page</div>
               </button>
             </div>
           </div>
         </div>
       </div>
       <!--------------------- OTHER SLIDE --------------------->
-      <div class="section" id="section3">
+      <div class="section" id="section5">
         <h1>Images</h1>
         <div class="base__container">
           <div class="base__container--content">
@@ -460,7 +469,10 @@
               <li>Type : Image WebP</li>
             </ul>
 
-            <div class="base__container--content--item" id="no-need">
+            <div
+              class="base__container--content--item stop-scroll"
+              id="no-need"
+            >
               <img
                 src="./public/img/screenshots/1-after.webp"
                 alt="image apres optimisation"
@@ -566,7 +578,7 @@
         </div>
       </div> -->
       <!--------------------- GTMETRIX BOOK SLIDES --------------------->
-      <div class="section" id="section1">
+      <div class="section" id="section6">
         <div class="slide active">
           <div class="fullscreen">
             <img
@@ -603,7 +615,7 @@
               class="width-adjusted"
             />
             <div class="center">
-              <button class="button btn no-bg">
+              <button class="button btn no-bg btn-dark">
                 <div class="pattern">
                   <div class="target inner bg1"></div>
                 </div>
@@ -616,10 +628,87 @@
         <!-- <div class="slide">
           <h2>blablah</h2>
         </div> -->
-        <!--------------------- 4th SLIDE --------------------->
+      </div>
+      <!--------------------- W3C HTML VALIDATOR --------------------->
+      <div class="section" id="section7">
+        <div class="slide active">
+          <div class="fullwidth-logo">
+            <img
+              src="./public/img/screenshots/validator/html.png"
+              alt="html validator logo"
+            />
+          </div>
+          <div class="column__container">
+            <h2>Avant</h2>
+            <div class="row__container slim-container">
+              <div class="validator-container stop-scroll">
+                <img
+                  src="./public/img/screenshots/validator/html-page1.png"
+                  alt="html validator page 1"
+                  width="580"
+                  class="validator-img"
+                />
+              </div>
+              <div class="validator-container">
+                <img
+                  src="./public/img/screenshots/validator/html-page2.png"
+                  alt="html validator page 2"
+                  width="580"
+                  class="validator-img"
+                />
+              </div>
+            </div>
+            <div>
+              <h2>Après</h2>
+              <img
+                src="./public/img/screenshots/validator/html-after.png"
+                alt=""
+                width="600"
+              />
+            </div>
+          </div>
+        </div>
+        <!--------------------- W3C CSS VALIDATOR --------------------->
+        <div class="slide">
+          <div class="fullwidth-logo">
+            <img
+              src="./public/img/screenshots/validator/W3C-css.png"
+              alt="html validator logo"
+            />
+          </div>
+          <div class="column__container no-gap">
+            <h2>Avant</h2>
+            <div class="row__container slim-container">
+              <div class="validator-css stop-scroll">
+                <img
+                  src="./public/img/screenshots/validator/css-page1.png"
+                  alt="html validator page 1"
+                  width="580"
+                  class="validator-img"
+                />
+              </div>
+              <div class="validator-css">
+                <img
+                  src="./public/img/screenshots/validator/css-page2.png"
+                  alt="html validator page 2"
+                  width="580"
+                  class="validator-img"
+                />
+              </div>
+            </div>
+            <div>
+              <h2>Après</h2>
+              <img
+                src="./public/img/screenshots/validator/css-after.png"
+                alt=""
+                height="250"
+              />
+            </div>
+          </div>
+        </div>
       </div>
       <!--------------------- OTHER SLIDE --------------------->
-      <div class="section" id="section3">
+      <div class="section" id="section8">
         <h1>Open Graph</h1>
         <div class="base__container">
           <div class="base__container--content">
@@ -649,12 +738,12 @@
         </div>
       </div>
       <!--------------------- OTHER SLIDE --------------------->
-      <div class="section" id="section3">
+      <div class="section" id="section9">
         <h1>Résultat final</h1>
         <div class="base__container">
           <button class="button btn">
             <div class="pattern">
-              <div class="target inner bg-pink"></div>
+              <div class="target inner bg-final"></div>
             </div>
 
             <div class="text">Page d'accueil</div>
@@ -662,7 +751,7 @@
 
           <button class="button btn">
             <div class="pattern">
-              <div class="target inner bg-pink"></div>
+              <div class="target inner bg-final"></div>
             </div>
 
             <div class="text">Page de contact</div>

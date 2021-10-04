@@ -1,19 +1,25 @@
 const myFullpage = new fullpage("#fullpage", {
   sectionsColor: [
     "#F2DFD7",
-    "#347FC4",
+    "#FEF9FF",
     "#D4C1EC",
     "#9F9FED",
     "#202024",
+    "#71B5F5",
+    "#42CAFD",
+    "#9CFFFA",
     "#52D1DC",
-    "#FEF9FF",
-    "#6C3A5C",
+    "#86E7B8",
+
+    "#A5FFD6",
+
     "#8ED081",
   ],
   autoScrolling: true,
   navigation: true,
   scrollOverflow: true,
-  normalScrollElements: ".swal2-popup, .stop-scroll",
+  normalScrollElements:
+    ".swal2-popup, .stop-scroll, .validator-container, .validator-css",
 
   // navigationTooltips: [
   //   "Accueil",
@@ -96,6 +102,13 @@ mockup[0].addEventListener("click", () => {
 mockup[1].addEventListener("click", () => {
   Swal.fire({
     imageUrl: "public/img/mockups/m-after.webp",
+    background: "#1f1f23cc",
+    confirmButtonColor: "black",
+  });
+});
+mockup[2].addEventListener("click", () => {
+  Swal.fire({
+    imageUrl: "public/img/mockups/m-after-2.webp",
     background: "#1f1f23cc",
     confirmButtonColor: "black",
   });

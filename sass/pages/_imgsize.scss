@@ -1,0 +1,26 @@
+.base__container {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 2rem;
+  &--content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+    &--item {
+      width: 325px;
+      height: 325px;
+      overflow: scroll;
+      position: relative;
+    }
+    & > ul {
+      padding-bottom: 1rem;
+    }
+  }
+}
+
+#no-need {
+  object-fit: cover;
+  overflow: hidden;
+}

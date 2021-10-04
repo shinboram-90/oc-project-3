@@ -103,37 +103,6 @@ p {
   border-color: transparent transparent transparent #2c302e !important;
 }
 
-.test-img {
-  width: 200px;
-}
-
-.base__container {
-  display: flex;
-  justify-content: space-around;
-  column-gap: 2rem;
-}
-.base__container--content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 50%;
-  align-items: center;
-}
-.base__container--content--item {
-  width: 325px;
-  height: 325px;
-  overflow: scroll;
-  position: relative;
-}
-.base__container--content > ul {
-  padding-bottom: 1rem;
-}
-
-#no-need {
-  object-fit: cover;
-  overflow: hidden;
-}
-
 .inner {
   height: 100px;
   width: 400px;
@@ -163,6 +132,7 @@ p {
   border: 0;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   font-weight: 900;
+  color: white;
   cursor: pointer;
   font-size: 1.2em;
   margin-top: 20px;
@@ -173,8 +143,8 @@ p {
   width: 300px;
 }
 
-.btn-white {
-  color: white;
+.btn-dark {
+  color: black;
 }
 
 .center {
@@ -194,51 +164,31 @@ p {
 }
 
 .bg-after {
+  background-image: url("https://images.unsplash.com/photo-1619529079006-873f44d61e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=664&q=80");
+}
+
+.bg-green {
   background-image: url("https://images.unsplash.com/photo-1511877448058-cbf344a6a85a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80");
 }
 
-.bg-pink,
+.bg-red {
+  background-image: url("https://images.unsplash.com/photo-1605714389837-828bc2b1e6c7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI1fHx0ZXh0dXJlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+}
+
 .no-bg {
   background-image: url("https://images.unsplash.com/photo-1567095716798-1d95d8f4c479?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
 }
 
-.ul-audit {
-  width: 47%;
-  position: relative;
-}
-.ul-audit > li {
-  list-style-image: url("../../public/img/tools/circle-solid.svg");
-  font-size: 1.8rem;
-  line-height: 1.2;
-}
-.ul-audit > li > span {
-  font-size: 1rem;
+.bg-1 {
+  background-image: url("https://images.unsplash.com/photo-1516796181074-bf453fbfa3e6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1740&q=80");
 }
 
-#special-li {
-  padding: 2rem;
-  list-style-position: inside;
-  list-style: none;
-  text-align: center;
+.bg-2 {
+  background-image: url("https://images.unsplash.com/photo-1611242319342-ed0d65b1a0f0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI3fHx0ZXh0dXJlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
 }
 
-.gt-metrix-logo {
-  position: absolute;
-  margin-bottom: 1rem;
-  top: 2rem;
-  left: 3rem;
-}
-
-.fullscreen :last-child {
-  height: 73vh;
-  display: block;
-  margin: auto;
-  padding-top: 1rem;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
+.bg-final {
+  background-image: url("https://images.unsplash.com/photo-1567540017993-c888313000b1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=677&q=80");
 }
 
 .column__container {
@@ -260,10 +210,6 @@ p {
 .column__container--img > img {
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-
-.grey {
-  color: darkgrey;
 }
 
 .row__container {
@@ -312,6 +258,79 @@ p {
   display: flex;
   align-items: flex-start;
   justify-content: space-evenly;
+}
+
+.fullwidth-logo {
+  position: absolute;
+  top: 0;
+  padding-top: 0.8rem;
+}
+.fullwidth-logo > img {
+  border-radius: 8px;
+  width: calc(100vw - 6rem);
+}
+
+.validator-container {
+  height: 233px;
+  overflow: scroll;
+}
+
+.validator-css {
+  height: 250px;
+  overflow: scroll;
+}
+
+.slim-container {
+  width: 82vw;
+}
+
+.stop-scroll {
+  overflow: hidden;
+}
+
+.no-gap {
+  row-gap: 0;
+}
+
+.gt-metrix-logo {
+  position: absolute;
+  margin-bottom: 1rem;
+  top: 2rem;
+  left: 3rem;
+}
+
+.fullscreen :last-child {
+  height: 73vh;
+  display: block;
+  margin: auto;
+  padding-top: 1rem;
+}
+
+.base__container {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 2rem;
+}
+.base__container--content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  align-items: center;
+}
+.base__container--content--item {
+  width: 325px;
+  height: 325px;
+  overflow: scroll;
+  position: relative;
+}
+.base__container--content > ul {
+  padding-bottom: 1rem;
+}
+
+#no-need {
+  object-fit: cover;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */

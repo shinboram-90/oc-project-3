@@ -1,0 +1,32 @@
+.fullwidth-logo {
+  position: absolute;
+  top: 0;
+  padding-top: 0.8rem;
+
+  & > img {
+    border-radius: 8px;
+    width: calc(100vw - 6rem);
+  }
+}
+
+.validator-container {
+  height: 233px;
+  overflow: scroll;
+}
+
+.validator-css {
+  height: 250px;
+  overflow: scroll;
+}
+
+.slim-container {
+  width: 82vw;
+}
+
+.stop-scroll {
+  overflow: hidden;
+}
+
+.no-gap {
+  row-gap: 0;
+}
