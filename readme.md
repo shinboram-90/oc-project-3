@@ -2,21 +2,23 @@
 
 <h2>Rapport d'optimisation</h2>
 
-Afficher details ici</br>
-blahblah"
+Attention site non responsive, à regarder sur grands écrans uniquement.
 
-<h3>Table des matieres</h3>
-<!-- <ol> 
-<li>Optimisation structurelle, Optimisation des standards, performances et temps de chargement</li>
-<li>Audit de performance</li>
-<li>Code HTML</li>
-<li>Remplir les balises des objets : 4 Construction des pages : 4 Erreurs de code</li>
-<li>Présence des fichiers de configuration</li>
-<li>Optimisation des pages 6 Charte de nommage des pages 6 Liens</li>
-<li>Optimisation du HEAD, Les balises Title & Métas</li>
-<li>Contenus 9 Titraille 9 Positionnement actuel</li>
-<li>Divers</li>
-</ol> -->
+Dans le cadre du projet 4 d'OpenClassrooms "Optimisation d'un site web existant" j'ai dû analyser un site fictif "La Chouette Agence" et y apporter des modifications afin d'ameliorer son SEO, son accessibilité et ses performances.</br>
+A l'aide de captures d'écran montrant le "avant/après, je présente donc mes résultats sous forme d'un site web pour un peu plus de fun. Pour cela j'ai utilisé la library fullpage.js et sweetalert2.
 
-<h4>Technologies</h4>
-● some text</br>
+<h3>Table des matières</h3>
+<ol> 
+<li>Lighthouse</li>
+<li>Couleurs de contraste</li>
+<li>Accessibilité avec Wave</li>
+<li>Responsive</li>
+<li>Images</li>
+<li>GTmetrix</li>
+<li>Validateurs HTML & CSS</li>
+<li>Open Graph</li>
+<li>Résultat final</li>
+</ol>
+
+<!-- <h4>Technologies</h4>
+● some text</br> -->
