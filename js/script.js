@@ -1,4 +1,5 @@
 const myFullpage = new fullpage("#fullpage", {
+  licenseKey: "9TosIiO^q4",
   sectionsColor: [
     "#F2DFD7",
     "#FEF9FF",
