@@ -23,5 +23,8 @@
     "openclassrooms",
     "project4",
     "optimization report"
-  ]
+  ],
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
 }

@@ -1,4 +1,7 @@
+require("dotenv").config();
+
 const myFullpage = new fullpage("#fullpage", {
+  licenseKey: process.env.LICENSE_KEY,
   sectionsColor: [
     "#F2DFD7",
     "#FEF9FF",
